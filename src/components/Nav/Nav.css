@@ -1,0 +1,4 @@
+#mz_menu{ width: 265px; height: 100%; background: #282828; color:#999999; position: fixed; left: 0; top:50px; display: -none; z-index:10;}
+#mz_menu ul{}
+#mz_menu li{ line-height: 50px; height: 50px; border-bottom: 1px dashed #333333; padding-left: 10px; }
+#mz_menu li i{ float:right; padding-right: 10px; }
