@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
     "react": "^16.5.0",
     "react-addons-css-transition-group": "^15.6.2",
     "react-dom": "^16.5.0",
@@ -16,5 +17,12 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "proxy": {
+    "/v4/api/*": {
+      "target": "https://m.maizuo.com",
+      "host": "m.maizuo.com",
+      "changeOrigin": true
+    }
   }
 }

@@ -11,3 +11,4 @@
 #mz_film .list .info p{ height: 28px; display: flex; line-height: 28px; font-size: 12px;}
 #mz_film .list .info p:nth-of-type(1) span:nth-of-type(1){ font-size: 18px; flex:1; }
 #mz_film .list .info p:nth-of-type(1) span:nth-of-type(2){ font-size: 16px; margin-right: 20px; color:#fc7103;}
+#mz_film .list .info p:nth-of-type(2){ overflow: hidden; }
