@@ -1,0 +1,8 @@
+#mz_movie{ margin-top: 18px; }
+#mz_movie ul{ width: 100%; padding:0 10px; box-sizing:border-box;}
+#mz_movie li{ margin-bottom: 10px; }
+#mz_movie img{ width: 100%; }
+#mz_movie .info{ height: 50px; background:white; display: flex; }
+#mz_movie .title{ flex : 1; padding-left: 10px; padding-top: 5px; }
+#mz_movie .title p{ line-height: 20px; }
+#mz_movie .score{ width: 50px; line-height: 50px; text-align: center; color:#f79177; font-size: 20px; }

@@ -1,0 +1,9 @@
+#mz_detail{ margin-top:50px; }
+#mz_detail .banner{ width: 100%; }
+#mz_detail .banner img{ width: 100%; }
+#mz_detail .info{ margin-top: 16px; font-size: 12px; }
+#mz_detail .info h2{ height: 24px; line-height: 24px; border-left:16px #e4c89c solid; font-size: 16px; padding-left: 4px; font-weight: 100; }
+#mz_detail .info dl{ overflow: hidden; line-height: 27px; margin-top: 10px; padding:0 10px; box-sizing:border-box; display: flex; }
+#mz_detail .info dt{ width:80px; }
+#mz_detail .info dd{ flex:1; overflow:hidden; white-space: nowrap; text-overflow:ellipsis;}
+#mz_detail .info p{ padding:0 10px; box-sizing:border-box; line-height: 20px; margin-top: 10px; }

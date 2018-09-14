@@ -2,3 +2,27 @@
 #mz_menu ul{}
 #mz_menu li{ line-height: 50px; height: 50px; border-bottom: 1px dashed #333333; padding-left: 10px; }
 #mz_menu li i{ float:right; padding-right: 10px; }
+#mz_menu li a{ display: block; width:100%; height:100%; color:inherit; text-decoration: none;}
+
+.navSlide-enter {
+  opacity: 0;
+  transform : translateX(-100%);
+}
+
+.navSlide-enter.navSlide-enter-active {
+  opacity: 1;
+  transform : translateX(0);
+  transition: 500ms ease-in;
+}
+
+.navSlide-leave {
+  opacity: 1;
+  transform : translateX(0);
+}
+
+.navSlide-leave.navSlide-leave-active {
+  opacity: 0;
+  transform : translateX(-100%);
+  transition: 500ms ease-in;
+}
+

@@ -1,0 +1,13 @@
+#mz_film{ margin-top: 80px; padding: 0 10px; box-sizing:border-box; }
+#mz_film .tab{ display: flex; text-align: center;}
+#mz_film .tab a{ flex : 1; font-size:16px; border-bottom: 1px #fe6e00 solid; height: 40px; display: block; text-decoration: none; color:inherit;}
+#mz_film .tab a.active{ color:#fe6e00; border-bottom: 4px #fe6e00 solid; height:37px; }	
+#mz_film .list{}
+#mz_film .list ul{}
+#mz_film .list li{ height: 124px; border-bottom:1px #c9c9c9 dashed; padding-top: 20px; box-sizing:border-box; display: flex;}
+#mz_film .list .img{ width: 60px; float:left; }
+#mz_film .list .img img{ width: 100%; }
+#mz_film .list .info{ float:left; margin-left: 15px; flex:1;}
+#mz_film .list .info p{ height: 28px; display: flex; line-height: 28px; font-size: 12px;}
+#mz_film .list .info p:nth-of-type(1) span:nth-of-type(1){ font-size: 18px; flex:1; }
+#mz_film .list .info p:nth-of-type(1) span:nth-of-type(2){ font-size: 16px; margin-right: 20px; color:#fc7103;}
