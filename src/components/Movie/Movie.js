@@ -64,6 +64,7 @@ class Movie extends Component {
 			this.props.history.push('/detail/'+cid);
 		}
 	}
+	
 }
 
 export default withRouter(Movie);

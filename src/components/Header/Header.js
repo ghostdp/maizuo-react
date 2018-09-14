@@ -21,7 +21,7 @@ class HeaderUI extends Component {
 		return (
 			<div id="mz_head">
 				<div className="menu" onClick={ ()=> {this.props.changeNavShow(this.props.navShow)} }><i className="iconfont icon-category"></i></div>
-				<div className="title">卖座电影</div>
+				<div className="title">{ this.props.filmName }</div>
 				<div className="city">哈尔滨 <i className="iconfont icon-moreunfold"></i></div>
 				<div className="user"><i className="iconfont icon-account"></i></div>
 			</div>
@@ -31,7 +31,8 @@ class HeaderUI extends Component {
 
 function mapStateToProps(state){
 	return {
-		navShow : state.navShow
+		navShow : state.navShow,
+		filmName : state.filmName
 	};
 }
 function mapDispatchToProps(dispatch){

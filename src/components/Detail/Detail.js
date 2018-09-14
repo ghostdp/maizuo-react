@@ -1,8 +1,9 @@
 import React , { Component } from 'react';
 import './Detail.css';
 import axios from 'axios';
+import { connect } from 'react-redux';
 
-class Detail extends Component {
+class DetailUI extends Component {
 	constructor(){
 		super();
 		this.state = {
@@ -59,6 +60,7 @@ class Detail extends Component {
 				this.setState({
 					detailObj : res.data.data.film
 				});
+				this.props.changeFilmName( this.state.detailObj.name );
 			}
 		});
 	}
@@ -73,5 +75,18 @@ class Detail extends Component {
 		}
 	}
 }
+
+function mapStateToProps(state){
+	return {};
+}
+function mapDispatchToProps(dispatch){
+	return {
+		changeFilmName(filmName){
+			dispatch({ type : 'CHANGE_FILMNAME' , payload : filmName });
+		}
+	};
+}
+
+var Detail = connect(mapStateToProps,mapDispatchToProps)(DetailUI);
 
 export default Detail;
